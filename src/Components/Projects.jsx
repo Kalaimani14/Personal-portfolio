@@ -1,4 +1,6 @@
 import todo from "../assets/ProjectImg/todo.png";
+import edu from "../assets/ProjectImg/Educational_web.png";
+
 import ecommerce from "../assets/ProjectImg/myStoreWeb.png";
 import iot from "../assets/ProjectImg/4bit-RCA.png";
 import verilog from "../assets/ProjectImg/BCD_Adder.png";    
@@ -13,14 +15,15 @@ export default function Projects() {
             features: ["Product Catalog", "Cart Management", "Order Processing", "User Authentication"],
             link: "https://kalaimani14.github.io/my-ecommerce-store/"
         },
-        {
-            title: "Task Manager Web Application",
-            description: "CRUD-based task management system enabling users to efficiently create, update, delete, and track daily tasks with an intuitive interface.",
-            image: todo,
-            tags: ["React.js", "Node.js", "MongoDB", "Express"],
-            features: ["Create Tasks", "Update Status", "Delete Tasks", "Task Tracking"],
-            link: "https://kalaimani14.github.io/task-manager-app/"
-        },
+         {
+            title: "UART Protocol Verilog HDL, Xilinx Vivado",
+            description: "Designed a UART transceiver (Tx/Rx) in Verilog; verified baud rate generation, start/stop bit logic, and serial data transmission via testbench simulation.",
+            image: verilog,
+            tags: ["Verilog", "Xilinx Vivado", "Digital Design"],
+            features: ["UART transceiver (Tx/Rx)", "FSM", "RTL debugging methodology.", "Testbench", "Simulation"],
+            link: "https://github.com/Kalaimani14"
+        },  
+       
         {
             title: "IoT Health Monitoring System",
             description: "Real-time IoT-based system designed to monitor elderly patients' vital health parameters and display data via mobile/web application.",
@@ -35,6 +38,21 @@ export default function Projects() {
             image: verilog,
             tags: ["Verilog", "Xilinx Vivado", "Digital Design"],
             features: ["4-bit RCA", "BCD Adder", "Testbench", "Simulation"],
+            link: "https://github.com/Kalaimani14"
+        }, {
+            title: "Task Manager Web Application",
+            description: "CRUD-based task management system enabling users to efficiently create, update, delete, and track daily tasks with an intuitive interface.",
+            image: todo,
+            tags: ["React.js", "Node.js", "Mysql", "Express"],
+            features: ["Create Tasks", "Update Status", "Delete Tasks", "Task Tracking"],
+            link: "https://kalaimani14.github.io/task-manager-app/"
+        },
+        {
+            title: "Educational Website ",
+            description: "Educational website enabling users to access interactive learning content with a user-friendly interface.",
+            image: edu,
+            tags: ["React.js","Tailwind CSS", "Node.js", "Mysql", "Express"],
+            features: ["Educational Content", "Interactive Learning", "Content Management", "Task Tracking"],
             link: "https://github.com/Kalaimani14"
         }
     ];

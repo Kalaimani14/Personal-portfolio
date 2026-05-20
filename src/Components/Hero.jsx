@@ -22,7 +22,7 @@ export default function Hero() {
                         </div>
 
                         <p className="text-gray-600 text-lg leading-relaxed">
-                            Motivated Electronics and Communication Engineering graduate with a strong foundation in digital electronics, logic gates, RTL design, and verification using Verilog (Xilinx Vivado). Trained in full-stack development, I specialize in building scalable web applications using React, Tailwind CSS, Spring Boot, Java, and MySQL.
+                             Motivated ECE graduate with hands-on industry experience in Software Development and self-directed VLSI Design \& Verification. Skilled in building production-level web applications using React.js, Node.js, Express.js, MySQL, and NodeMailer, along with RTL design in Verilog HDL including UART protocol implementation. Experienced in RESTful APIs, FSM design, and digital verification using Xilinx Vivado.
                         </p>
 
                         <div className="flex flex-wrap gap-4 pt-4">
@@ -109,7 +109,7 @@ export default function Hero() {
                             <div className="w-auto h-auto rounded-full relative overflow-hidden border-4 border-white shadow-2xl">
                                 <img
                                     src={profile}
-                                    alt="Kalaimani L - Full Stack Developer"
+                                    alt="Kalaimani L - Software Developer"
                                     className="w-full h-full object-cover "
                                 />
                             </div>

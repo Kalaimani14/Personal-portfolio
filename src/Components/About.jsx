@@ -14,7 +14,7 @@ export default function About() {
                     {/* About Text */}
                     <div className="space-y-6">
                         <h3 className="text-2xl font-semibold text-gray-900">
-                            Full Stack Developer with a Strong Electronics Background
+                            Software Developer with a Strong Electronics Background
                         </h3>
                         <p className="text-gray-600 leading-relaxed">
                             I'm a motivated Electronics and Communication Engineering graduate from A.K.T Memorial 
@@ -94,9 +94,9 @@ export default function About() {
                                 <div className="mb-1">
                                     <span className="text-sm font-medium text-gray-600">Feb 2026 - Present</span>
                                 </div>
-                                <h4 className="font-semibold text-gray-900">Software Engineer intern</h4>
+                                <h4 className="font-semibold text-gray-900">Software Engineer</h4>
                                 <p className="text-gray-600 text-sm">Mayilveera Tech Solution, Chennai</p>
-                                <p className="text-gray-500 text-sm mt-1">Developed web applications using both frontend and backend technologies</p>
+                                <p className="text-gray-500 text-sm mt-1">Developed Software applications using both frontend and backend technologies</p>
                             </div>
                             {/* Full Stack Training */}
                             <div className="relative pl-8 border-l-2 border-blue-400">
